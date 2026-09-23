@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>eKofini@Proper | Home</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5eee6;
+            color: #3e2723;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        header h1 {
+            margin: 5px;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background-color: #3e2723;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #d7b899;
+        }
+
+        /* MAIN */
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            color: #6f4e37;
+            border-bottom: 2px solid #c8a27a;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #6f4e37;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        /* WELCOME */
+        .welcome {
+            text-align: center;
+        }
+
+        .welcome h2 {
+            border-bottom: none;
+        }
+
+        .welcome-image {
+            width: 100%;
+            max-width: 800px;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+
+        /* BUTTON */
+        .button {
+            display: inline-block;
+            background-color: #6f4e37;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #3e2723;
+        }
+
+        /* SERVICES */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #f8f1ea;
+            border: 1px solid #d8c5b5;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .price {
+            color: #6f4e37;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* WHY CHOOSE US */
+        .why-us {
+            line-height: 2;
+            padding-left: 25px;
+        }
+
+        /* CONTACT */
+        .contact {
+            text-align: center;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        /* MOBILE */
+        @media screen and (max-width: 700px) {
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .welcome-image {
+                height: 250px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <img
+            src="image/logo.webp"
+            alt="eKofini@Proper Logo"
+        >
+
+        <h1>eKofini@Proper</h1>
+
+        <p>
+            Fresh Coffee, Delicious Meals & A Welcoming Community
+        </p>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+
+            <li>
+                <a href="enquiry.html">Enquiry</a>
+            </li>
+
+            <li>
+                <a href="contact us.html">Contact Us</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+
+        <!-- WELCOME -->
+
+        <section class="welcome">
+
+            <h2>Welcome to eKofini@Proper</h2>
+
+            <p>
+                Your local coffee shop in the heart of the
+                Ekangala community.
+            </p>
+
+            <p>
+                Enjoy freshly prepared coffee, delicious meals
+                and snacks in a warm and welcoming environment.
+            </p>
+
+            <img
+                src="images/image.webp"
+                alt="eKofini@Proper Coffee Shop"
+                class="welcome-image"
+            >
+
+            <a
+                href="services.html"
+                class="button"
+            >
+                View Our Services
+            </a>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section>
+
+            <h2>About eKofini@Proper</h2>
+
+            <p>
+                eKofini@Proper is a locally owned coffee shop
+                serving the Ekangala community with fresh coffee,
+                meals and snacks.
+            </p>
+
+            <p>
+                We provide a warm and welcoming space for meetings,
+                family time, students, professionals and visitors.
+                Our focus is on quality food and excellent
+                customer service.
+            </p>
+
+            <a
+                href="about.html"
+                class="button"
+            >
+                Learn More About Us
+            </a>
+
+        </section>
+
+
+        <!-- POPULAR ITEMS -->
+
+        <section>
+
+            <h2>Popular Choices</h2>
+
+            <div class="cards">
+
+
+                <!-- COFFEE -->
+
+                <div class="card">
+
+                    <img
+                        src="images/coffee.webp"
+                        alt="Fresh Coffee"
+                        class="card-image"
+                    >
+
+                    <h3>Fresh Coffee</h3>
+
+                    <p>
+                        Enjoy freshly prepared coffee made
+                        with quality ingredients.
+                    </p>
+
+                    <p class="price">
+                        From R25
+                    </p>
+
+                </div>
+
+
+                <!-- MEALS -->
+
+                <div class="card">
+
+                    <img
+                        src="images/photos.webp"
+                        alt="Meals and Snacks"
+                        class="card-image"
+                    >
+
+                    <h3>Meals & Snacks</h3>
+
+                    <p>
+                        Enjoy delicious meals, sandwiches,
+                        burgers, snacks and cakes.
+                    </p>
+
+                    <p class="price">
+                        From R30
+                    </p>
+
+                </div>
+
+
+                <!-- MEETINGS -->
+
+                <div class="card">
+
+                    <img
+                        src="images/meeting.webp"
+                        alt="Meeting Space"
+                        class="card-image"
+                    >
+
+                    <h3>Meeting Space</h3>
+
+                    <p>
+                        A comfortable environment for meetings,
+                        discussions and small gatherings.
+                    </p>
+
+                    <p class="price">
+                        From R100
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- WHY CHOOSE US -->
+
+        <section>
+
+            <h2>Why Choose eKofini@Proper?</h2>
+
+            <ul class="why-us">
+
+                <li>
+                    Freshly prepared coffee and meals
+                </li>
+
+                <li>
+                    Affordable prices
+                </li>
+
+                <li>
+                    Friendly customer service
+                </li>
+
+                <li>
+                    Warm and welcoming atmosphere
+                </li>
+
+                <li>
+                    Family-friendly environment
+                </li>
+
+                <li>
+                    Comfortable space for meetings
+                </li>
+
+                <li>
+                    Convenient takeaway options
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ENQUIRY -->
+
+        <section>
+
+            <h2>Have an Enquiry?</h2>
+
+            <p>
+                Do you have a question about our menu,
+                services, bookings or events?
+            </p>
+
+            <p>
+                Send us an enquiry and our team will be happy
+                to assist you.
+            </p>
+
+            <a
+                href="enquiry.html"
+                class="button"
+            >
+                Make an Enquiry
+            </a>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact">
+
+            <h2>Visit Us</h2>
+
+            <p>
+                <strong>Location:</strong>
+                Ekangala, Gauteng, South Africa
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                012 345 6789
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                info@ekofiniproper.com
+            </p>
+
+            <p>
+                Come and enjoy great coffee, delicious food
+                and a welcoming community atmosphere.
+            </p>
+
+            <a
+                href="contact us.html"
+                class="button"
+            >
+                Contact Us
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 eKofini@Proper. All rights reserved.
+        </p>
+
+        <p>
+            Serving the Ekangala community with standard coffee for coffee lovers
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
