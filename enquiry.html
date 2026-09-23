@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>eKofini@Proper | Enquiry</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5eee6;
+            color: #3e2723;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header img {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        header h1 {
+            margin: 5px;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background-color: #3e2723;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d7b899;
+        }
+
+        /* MAIN */
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            color: #6f4e37;
+
+            border-bottom: 2px solid #c8a27a;
+            padding-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* FORM */
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+
+            font-weight: bold;
+            color: #6f4e37;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+
+            border: 1px solid #c8a27a;
+            border-radius: 6px;
+
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 130px;
+            resize: vertical;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border: 2px solid #6f4e37;
+        }
+
+        /* BUTTONS */
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .submit-button {
+            background-color: #6f4e37;
+            color: white;
+        }
+
+        .submit-button:hover {
+            background-color: #3e2723;
+        }
+
+        .reset-button {
+            background-color: #d7b899;
+            color: #3e2723;
+        }
+
+        .reset-button:hover {
+            background-color: #c8a27a;
+        }
+
+        /* IMAGE */
+        .enquiry-image {
+            width: 100%;
+            max-width: 750px;
+            height: auto;
+
+            display: block;
+            margin: 20px auto;
+
+            border-radius: 12px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        /* MOBILE */
+        @media screen and (max-width: 600px) {
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            header h1 {
+                font-size: 26px;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <img
+            src="images/logo.webp"
+            alt="eKofini@Proper Logo"
+        >
+
+        <h1>eKofini@Proper</h1>
+
+        <p>
+            Fresh Coffee, Delicious Meals & A Welcoming Community
+        </p>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+
+            <li>
+                <a href="enquiry.html">Enquiry</a>
+            </li>
+
+            <li>
+                <a href="contact us.html">Contact Us</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+
+        <!-- INTRODUCTION -->
+
+        <section>
+
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Have a question about our menu, services or events?
+                Complete the enquiry form below and our team will
+                get back to you.
+            </p>
+
+            <p>
+                We are happy to assist with general enquiries,
+                bookings, meetings, catering and special events.
+            </p>
+
+        </section>
+
+
+        <!-- ENQUIRY FORM -->
+
+        <section>
+
+            <h2>Enquiry Form</h2>
+
+            <form action="#" method="post">
+
+
+                <!-- NAME -->
+
+                <label for="name">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+
+                <!-- EMAIL -->
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+
+                <!-- PHONE -->
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+
+                <!-- ENQUIRY TYPE -->
+
+                <label for="enquiry">
+                    Type of Enquiry
+                </label>
+
+                <select
+                    id="enquiry"
+                    name="enquiry"
+                    required
+                >
+
+                    <option value="">
+                        -- Select an enquiry type --
+                    </option>
+
+                    <option value="general">
+                        General Enquiry
+                    </option>
+
+                    <option value="booking">
+                        Table Booking
+                    </option>
+
+                    <option value="meeting">
+                        Meeting or Event
+                    </option>
+
+                    <option value="catering">
+                        Catering
+                    </option>
+
+                    <option value="menu">
+                        Menu Enquiry
+                    </option>
+
+                    <option value="other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <!-- NUMBER OF PEOPLE -->
+
+                <label for="people">
+                    Number of People
+                </label>
+
+                <input
+                    type="number"
+                    id="people"
+                    name="people"
+                    min="1"
+                    max="100"
+                    placeholder="e.g. 5"
+                >
+
+
+                <!-- DATE -->
+
+                <label for="date">
+                    Preferred Date
+                </label>
+
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                >
+
+
+                <!-- MESSAGE -->
+
+                <label for="message">
+                    Your Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Type your enquiry or message here..."
+                    required
+                ></textarea>
+
+
+                <!-- BUTTONS -->
+
+                <div class="buttons">
+
+                    <button
+                        type="submit"
+                        class="submit-button"
+                    >
+                        Submit Enquiry
+                    </button>
+
+                    <button
+                        type="reset"
+                        class="reset-button"
+                    >
+                        Clear Form
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- IMAGE -->
+
+        <section>
+
+            <h2>Plan Your Visit</h2>
+
+            <p>
+                Whether you are meeting friends, enjoying a cup
+                of coffee or planning a special event, eKofini@Proper
+                provides a warm and welcoming environment.
+            </p>
+
+            <img
+                src="images/meeting.webp"
+                alt="People meeting at eKofini@Proper"
+                class="enquiry-image"
+            >
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 eKofini@Proper. All rights reserved.
+        </p>
+
+        <p>
+            Serving the Ekangala community with quality food
+            and excellent customer service.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
